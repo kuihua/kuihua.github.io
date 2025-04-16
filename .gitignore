@@ -1,0 +1,4 @@
+# Ignoring problematic Mac generated files
+*.zip
+*.DS_Store
+
