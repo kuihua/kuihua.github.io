@@ -1,0 +1,42 @@
+html {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Chipmug", "Montserrat", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* font from https://fonts.google.com/selection/embed */
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* font from https://jonibigood.itch.io/pixel-art-font */
+@font-face {
+  font-family: "Chipmug";
+  src: url(../fonts/ChipMug.ttf) format('truetype'),
+       url(../fonts/ChipMug.woff) format('woff'),
+       url(../fonts/ChipMug.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+  
+

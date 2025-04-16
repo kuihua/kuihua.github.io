@@ -1,0 +1,252 @@
+.intro-desc {
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 2.5rem;
+    max-width: rem;
+}
+
+.title-sparkle {
+    transform-origin: left;
+    transform: scale(0.5);
+    float: right;
+    object-fit: contain;
+    margin-left: -5rem;
+    margin-top: -5rem;
+    
+}
+
+.intro-text {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+.intro-section {
+    padding: 5rem 2rem 10rem 2rem;
+    max-width: 100%;
+    display: flex;
+}
+
+.section-heading {
+    display: inline-block;
+}
+
+
+p {
+    font-size: 0.9rem;
+}
+
+.role-list, span {
+    font-weight: bold;
+    color: #093C91;
+}
+
+.projects-section {
+    margin: 1.5rem;
+}
+
+.projects-listing {
+    clear: both;
+    margin-top: -1rem;
+    list-style: none;
+
+    display: grid;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+}
+
+.card-content {
+    margin: 1.5rem;
+}
+
+.card-info {
+    margin: 1rem 0;
+}
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card-end {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    row-gap: 0.25rem;
+    column-gap: 0.25rem;
+    margin-top: 1.5rem;
+}
+
+.role-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    row-gap: 0.5rem;
+    column-gap: 0.3rem;
+    font-size: 0.8rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+
+/* https://www.w3schools.com/csSref/css3_pr_transform-origin.php */
+.arrow-container {
+    text-align: right;
+    transform-origin: bottom;
+    padding-bottom: 1rem;
+}
+
+/* refered to animation class tutorial */
+.arrow-img {
+    /* transform: scale(5); */
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+.arrow-link:hover, .arrow-link:focus {
+    .arrow-img {
+        animation-name: arrow;
+        animation-timing-function: ease-in-out;
+    }
+
+}
+
+@keyframes arrow {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(6px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@media(min-width: 30rem) {
+    .title-sparkle {
+        transform: scale(0.75);
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+
+}
+
+@media (min-width: 35rem) {
+    .intro-section {
+        padding: 6rem 5rem 8rem 5rem;
+    }
+
+    
+    .projects-section {
+        margin: 5rem;
+    }
+    
+
+    p {
+        font-size: 1rem;
+    }
+
+    .project-sparkle{
+        transform: scale(0.75);
+    }
+
+    .projects-listing {
+        margin-top: 2rem;
+    }
+    
+}
+
+
+@media (min-width: 48rem) {
+
+    .intro-section {
+        grid-template-columns: 1fr 1fr;
+        padding: 8rem 5rem 15rem 5rem;
+    }
+
+    .project-sparkle{
+        transform: scale(1);
+    }
+
+    .intro-desc, .button {
+        font-size: 1.25rem;
+    }
+
+    .intro-heading {
+        font-size: 7rem;
+    }
+
+    .process-heading {
+        font-size: 5rem;
+        margin-left: 1rem;
+    }
+    
+    .intro-text {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+
+}
+
+
+
+@media (min-width: 50rem) {
+    .intro-desc {
+        font-size: 1.5rem;
+    }
+
+    .button {
+        font-size: 1.25rem;
+    }
+
+    .intro-section {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .title-sparkle {
+        transform: scale(1);
+    }
+
+    .intro-heading {
+        font-size: 8.5rem;
+    }
+
+    .process-heading {
+        font-size: 6rem;
+    }
+
+
+    .projects-listing {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+@media (min-width: 60rem) {
+    .intro-text {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+@media (min-width: 75rem) {
+    .projects-listing {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
