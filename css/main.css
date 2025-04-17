@@ -17,9 +17,14 @@ html {
     border: none;
 }
 
+/* footer stay at bottom of page https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b */
 body {
     background-color: #DFEEF2;
     font-size: 1rem;
+    display: grid;
+    margin: 0;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
 }
 
 h1,
@@ -46,27 +51,37 @@ h3 {
 
 p {
     color: black;
+    font-size: 1rem;
 }
 
 main {
-    margin: 1.5rem;
     text-align: left;
     max-width: 100rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-nav,
-footer {
+nav, footer {
     background-color: #B9E5E8;
-    text-align: center;
+    align-items: center;
     font-size: 1.2rem;
     width: 100%;
-    display: inline-block;
+    display: flex;
     overflow: hidden;
-    padding: 1rem 1.5rem 0rem 1.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
+
+/* footer {
+    background-color: #B9E5E8;
+    align-items: center;
+    font-size: 1.2rem;
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem 1.5rem 0rem 1.5rem;
+    display:flex;
+    text-align: center;
+} */
 
 nav a,
 footer a {
@@ -74,9 +89,10 @@ footer a {
     margin: auto;
     text-decoration: none;
     padding: 0;
+    display: inline-block;
 }
 
-/* referenced https://www.30secondsofcode.org/css/s/hover-underline-animation/ */
+/* hover underline referenced https://www.30secondsofcode.org/css/s/hover-underline-animation/ */
 .nav-link {
     display: inline-block;
     position: relative;
@@ -118,11 +134,21 @@ ul {
 
 /* https://www.w3schools.com/css/css_float.asp */
 .nav-logo {
+    /* float: left; */
+    /* transform-origin: top; */
+    transform: scale(0.75);
+    transition-property: transform;
+    transition-duration: 0.25s;
+    margin: 0rem;
+}
+
+.footer-logo {
     float: left;
     transform-origin: top;
     transform: scale(0.75);
     transition-property: transform;
     transition-duration: 0.25s;
+    margin: 0rem;
 }
 
 
@@ -140,25 +166,10 @@ ul {
 
 /* clear referenced from https://www.w3schools.com/css/css_float_clear.asp */
 .copyright {
-    margin-top: 0rem;
-    font-size: 0.75rem;
-    clear: both;
+    margin-left: auto;
 }
 
 
-.button {
-    text-decoration: none;
-    border: 0.1rem solid #093C91;
-    border-radius: 0.6rem;
-    padding: 0.5rem 1rem;
-    color: black;
-    font-size: 1rem;
-}
-
-.button:hover,
-.button:focus {
-    background-color: #B9E5E8;
-}
 
 
 #topButton {
@@ -190,8 +201,8 @@ ul {
 
     /* https://www.w3schools.com/css/css_float.asp */
     .nav-logo {
-        float: left;
-        transform-origin: top;
+        /* float: left; */
+        /* transform-origin: top; */
         transform: scale(0.75);
     }
 

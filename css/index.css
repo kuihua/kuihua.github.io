@@ -24,6 +24,7 @@
     padding: 5rem 2rem 10rem 2rem;
     max-width: 100%;
     display: flex;
+    background-color: #B9E5E8;
 }
 
 .section-heading {
@@ -31,9 +32,19 @@
 }
 
 
-p {
-    font-size: 0.9rem;
+.button {
+    text-decoration: none;
+    border: 0.1rem solid #093C91;
+    padding: 0.75rem 1rem;
+    color: black;
+    font-size: 1rem;
 }
+
+.button:hover,
+.button:focus {
+    background-color: #DFEEF2;
+}
+
 
 .role-list, span {
     font-weight: bold;
