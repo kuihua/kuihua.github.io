@@ -7,13 +7,14 @@
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5rem;
 
 }
 
 .info-block {
     margin-bottom: 2rem;
     max-width: 100%;
-
+    grid-row: 2;
     text-align: left;
 }
 
@@ -29,24 +30,9 @@
     text-align: left;
 }
 
-
-span, .email {
-    font-weight: bold;
-    color: #61237F;
-    text-decoration: none;
-}
-
-.email:hover, .email:focus {
-    text-decoration: underline solid #61237F 0.1rem;
-}
-
 /* grid https://www.w3schools.com/css/css_grid_item.asp */
 .card-portrait {
     grid-row: 1;
-}
-
-.info-block {
-    grid-row: 2;
 }
 
 .portrait {
@@ -93,7 +79,7 @@ span, .email {
 
 }
 
-@media (min-width: 45rem) {
+/* @media (min-width: 45rem) {
 
     .intro-heading {
         font-size: 7rem;
@@ -114,4 +100,4 @@ span, .email {
         font-size: 8.5rem;
     }
 
-}
+} */

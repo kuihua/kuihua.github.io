@@ -1,8 +1,9 @@
 .intro {
-    padding: 2rem 5rem 10rem 5rem;
+    /* padding: 2rem 5rem 10rem 5rem; */
     display: grid;
     column-gap: 2rem;
     row-gap: 2rem;
+    margin: 5rem;
 }
 
 .project-img {
@@ -14,17 +15,22 @@
 
 .project-info {
     display: grid;
-    column-gap: 2rem;
+    /* column-gap: 2rem; */
     row-gap: 2rem;
     padding: 2rem 5rem;
     background-color: #B9E5E8;
     text-align: left;
+    justify-content: space-between;
 }
 
 .project-info h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: regular;
+}
+
+.project-info li {
+    margin-top: 0.4rem;
 }
 
 
@@ -37,7 +43,7 @@
 }
 
 .process-contents h2 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .process-block {
@@ -110,8 +116,8 @@ img {
         grid-template-columns: 1fr 1fr;
     }
 
-    .h2 {
-        font-size: 5.25rem;
+    .process-contents h2 {
+        font-size: 2rem;
     }
 
     .intro-block {
@@ -128,7 +134,7 @@ img {
     }
 
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
 }

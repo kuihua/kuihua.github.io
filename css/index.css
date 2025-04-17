@@ -27,8 +27,8 @@
     background-color: #B9E5E8;
 }
 
-.section-heading {
-    display: inline-block;
+h2 {
+    font-size: 3rem;
 }
 
 
@@ -56,8 +56,6 @@
 }
 
 .projects-listing {
-    /* clear: both;
-    margin-top: -1rem; */
     list-style: none;
 
     display: grid;

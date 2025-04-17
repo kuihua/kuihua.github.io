@@ -1,11 +1,11 @@
 html {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Inter", "Montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 h1, h2, h3, h4 {
-  font-family: "Chipmug", "Montserrat", sans-serif;
+  font-family: "Montserrat", "Inter", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -23,7 +23,27 @@ h1, h2, h3, h4 {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
+  font-style: bold;
+}
+
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: bold;
 }
 
 /* font from https://jonibigood.itch.io/pixel-art-font */
