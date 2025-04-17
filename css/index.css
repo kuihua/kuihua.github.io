@@ -56,13 +56,13 @@
 }
 
 .projects-listing {
-    clear: both;
-    margin-top: -1rem;
+    /* clear: both;
+    margin-top: -1rem; */
     list-style: none;
 
     display: grid;
-    column-gap: 3rem;
-    row-gap: 3rem;
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
     padding: 0;
 }
 
@@ -70,6 +70,7 @@
     display: flex;
     background-color: #FFFFFF;
     border-radius: 1rem;
+    border: 2px solid #093C91;
 }
 
 .card-content {
