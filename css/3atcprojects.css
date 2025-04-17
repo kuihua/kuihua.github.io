@@ -41,8 +41,8 @@
 }
 
 .process-block {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    /* display: grid;
+    grid-template-columns: 1fr 2fr; */
     margin-bottom: 5rem;
 }
 
