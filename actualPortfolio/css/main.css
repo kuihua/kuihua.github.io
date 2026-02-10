@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+*:focus {
+    outline: none;
+    border: none;
+}
+
+body {
+    font-size: 1rem;
+    display: grid;
+    margin: 0;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+strong {
+    color: #75469D;
+}
+
+nav, footer {
+    background-color: #75469D;
+    color: white;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    clear: both;
+
+    font-size: 1.15rem;
+    padding: 1rem 1rem 0rem 1rem;
+    max-width: 100%;
+}
+
+ul {
+    width: 100%;
+}
+
+.nav-logo {
+    /* transform-origin: top; */
+    /* transform: scale(0.75);
+    transition-property: transform;
+    transition-duration: 0.25s; */
+    display: inline-block;
+    color: white;
+
+}
+
+li {
+    float: right;
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+.nav-link, .footer-info, .nav-logo {
+    position: relative;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.link:after{
+    position: absolute;
+    content:'';
+    width:100%;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background-color: white;
+
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-in-out;
+}
+
+.link:hover::after, .link:focus::after{
+    background-color: white;
+    transform: scaleX(1);
+    transform-origin: top left;
+    transition: transform 0.5s ease-in-out;
+}
+
+h1,h2,h3 {
+    color: #75469D;
+    /* margin: 0; */
+}
+
+main {
+    padding: 3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+ /* @media (prefers-reduced-motion: reduce) {
+    nav a { 
+       transition: none; 
+       text-decoration: none;
+    }
+
+    *, :after,:before {
+        transition: none !important;
+        transform: none !important;
+        transition-duration: 0s !important;
+        animation-delay: -1s !important;
+        animation-duration: 1s !important;
+        animation-iteration-count: 1 !important;
+    }
+
+    html {
+        scroll-behavior: auto;
+    }
+}  */
