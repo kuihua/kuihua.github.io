@@ -1,9 +1,13 @@
 
 .process {
-    padding: 3rem 8rem 3rem 8rem;
+    padding: 3rem 4rem 3rem 4rem;
     max-width: 90rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.intro {
+    padding: 3rem;
 }
 
 .about-link {
@@ -12,7 +16,6 @@
     text-decoration: none;
     list-style: none;
 }
-
 
 .about-link:after{
     position: absolute;
@@ -35,15 +38,12 @@
     transition: transform 0.5s ease-in-out;
 }
 
-.intro {
-    margin: 0;
-    padding: 3rem;
-}
 
 .project-img {
     max-width: 100%;
     height: auto;
     object-fit: contain;
+    border-radius: 0.5rem;
 }
 
 .project-info {
@@ -57,15 +57,16 @@
     font-size: 1.5rem;
 }
 
-.row{
-    margin: 0;
+.overview-text {
+    font-size: 1rem;
 }
 
-ul {
+.proj-info {
     overflow: auto;
     padding: 0;
 }
 
 .proj-info-li {
     width: 100%;
+    font-size: 1rem;
 }

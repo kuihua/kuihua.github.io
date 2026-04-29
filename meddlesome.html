@@ -10,10 +10,10 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
     <!-- stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/projectPg.css">
+    <link rel="stylesheet" href="../actualPortfolio/css/normalize.css">
+    <link rel="stylesheet" href="../actualPortfolio/css/fonts.css">
+    <link rel="stylesheet" href="../actualPortfolio/css/main.css">
+    <link rel="stylesheet" href="../actualPortfolio/css/projectPg.css">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,79 +30,85 @@
         <nav id="navTop">
             <ul>
                 <a href="index.html" class="nav-logo link">Michelle Lin</a>
-                <li class="nav-link link"><a href="about.html" class="nav-link">About</a></li>
-                <li class="nav-link link"><a href="index.html#projects" class="nav-link">Projects</a></li>
-                <li class="nav-link link"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-link link"><a href="../actualPortfolio/about.html" class="nav-link">About</a></li>
+                <li class="nav-link link"><a href="../actualPortfolio/index.html#projects" class="nav-link">Projects</a></li>
+                <li class="nav-link link"><a href="../actualPortfolio/index.html" class="nav-link">Home</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="intro row mb-3">
-        <div class="col-lg-4">
-            <h1>Meddlesome Company</h1>
-            <p class="overview-text">A narratively driven 2D side-scroller puzzle adventure game that was built in Unity for an academic project at Simon Fraser University. The game is about 2 employees, Anthony and Theo, that were sent to infiltrate a rival company, Melon Corp. However, both believe to be working alone and are unaware of the other. The player plays as each character in their respective chapters, before playing as both in the final chapter. The goal of this project was adapting a script into an interactive medium.</p>
+    <section class="intro container mb-3">
+        <div class="row">
+            <div class="col-lg-4"> 
+                <h1>Meddlesome Company</h1>
+                <p class="overview-text">A narratively driven 2D side-scroller puzzle adventure game about 2 employees, Anthony and Theo, that were sent to infiltrate a rival company, Melon Corp. However, both believe to be working alone and are unaware of the other. The player plays as each character in their respective chapters, before playing as both in the final chapter. The goal of this project was adapting a script into an interactive medium.</p>
 
                 <p>Play the <a href="https://jyl7hf.itch.io/meddlesome-company" class="about-link">game&#8599;</a> or check out the <a href="https://youtu.be/6u-HBVaYn98" class="about-link">walkthrough!&#8599;</a></p>
-        </div>
-        <figure class="col-lg-8">
-            <img src="img/meddlesomeCompany/meddlesomeCompany_thumbnail.png" width="1321" height="743" alt="Meddlesome Company main menu screen" class="project-img">
-        </figure>
-    </section>
-
-    <section class="project-info row">
-        <div class="col-md-2 gx-5">
-            <h2 class="overview-h2">Role</h2>
-            <ul>
-                <li class="proj-info-li">Game Designer</li>
-                <li class="proj-info-li">Game Developer</li>
-                <li class="proj-info-li">Environmental Artist</li>
-                <li class="proj-info-li">Script Writer</li>
-            </ul>
-        </div>
-
-        <div class="col-md-5 gx-5">
-            <h2 class="overview-h2">Team</h2>
-            <ul>
-                <li class="proj-info-li">Angela Shen - Character Artist, Script Editor</li>
-                <li class="proj-info-li">Keith Law - Puzzle/UI Artist, Environment Artist, Script Editor</li>
-                <li class="proj-info-li">Jillian Li - Game Designer, Game Developer, Map & UI Layout Designer, Script Writer</li>
-                
-            </ul>
-        </div>
-
-        <div class="col-md-2 gx-5">
-            <h2 class="overview-h2">Tools</h2>
-            <ul>
-                <li class="proj-info-li">Unity & C#</li>
-                <li class="proj-info-li">Aseprite</li>
-                <li class="proj-info-li">Github</li>
-            </ul>
-        </div>
-
-        <div class="col-md-3 gx-5">
-            <h2 class="overview-h2">Timeframe</h2>
-            <p>7 weeks [October 2024 - December 2024]</p>
+            </div>
+            <figure class="col-lg-8">
+                <img src="img/meddlesomeCompany/meddlesomeCompany_thumbnail.png" width="1321" height="743" alt="Meddlesome Company main menu screen" class="project-img">
+            </figure>
         </div>
     </section>
 
-    <section class="process">
-        <h2>Focus</h2>
-        <p>My focus during this project was to create strong environmental storytelling through the use of map design, level design, and cutscenes. My goal was to ensure that it would immerse players into the story, communicate narrative details, and expand upon the existing world.
-        </p>
+    <section class="project-info container">
+        <div class="row">
+            <div class="col-lg-2 col-md-6 gx-5">
+                <h2 class="overview-h2">Role</h2>
+                <ul class="proj-info">
+                    <li class="proj-info-li">Game Designer</li>
+                    <li class="proj-info-li">Game Developer</li>
+                    <li class="proj-info-li">Environmental Artist</li>
+                    <li class="proj-info-li">Script Writer</li>
+                </ul>
+            </div>
 
-        <!-- <h2 class="process-heading">Environmental Design</h2> -->
+            <div class="col-lg-5 col-md-6 gx-5">
+                <h2 class="overview-h2">Team</h2>
+                <ul class="proj-info">
+                    <li class="proj-info-li">Angela Shen - Character Artist, Script Editor</li>
+                    <li class="proj-info-li">Keith Law - Puzzle/UI Artist, Environment Artist, Script Editor</li>
+                    <li class="proj-info-li">Jillian Li - Game Designer, Game Developer, Map & UI Layout Designer, Script Writer</li>
+                    
+                </ul>
+            </div>
 
-        <section class="row gy-5">
-            <section>
+            <div class="col-lg-2 col-md-6 gx-5">
+                <h2 class="overview-h2">Tools</h2>
+                <ul class="proj-info">
+                    <li class="proj-info-li">Unity & C#</li>
+                    <li class="proj-info-li">Aseprite</li>
+                    <li class="proj-info-li">Github</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 gx-5">
+                <h2 class="overview-h2">Timeframe</h2>
+                <p>7 weeks [Oct 2024 - Dec 2024]</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="process container">
+        <div class="row mb-3">
+            <div>
+                <h2>Focus + Role</h2>
+                <p>My focus during this project was to create strong environmental storytelling through the use of map design, level design, and cutscenes. My goal was to ensure that it would immerse players into the story, communicate narrative details, and expand upon the existing world. I programmed and implemented a few of the player's interactions with the environment, created the dialogue system and cutscenes, and illustrated the environments to achieve this.
+                </p>
+            </div>
+        </div>
+
+        <div class="row gy-5">
+            <div>
                 <div class="row">
                     <div class="col-lg-4">
                         <h3>Environmental Design</h3>
-                        <p>I focused on creating environments that reflected on the game’s lore to immerse the player into the story. The building I was responsible for is described as a high-tech controlling company so backgrounds were drawn to reflect that through the use of colour, props, and NPC dialogue. Security cameras are generously placed, except to people in power. Additionally, interactable props were used as hints for puzzles players needed to solve.
+                        <p>There was a focus on creating environments that reflected on the game’s lore to increase the games's immersion into the story. The area I was responsible for is described as a high-tech controlling company, which was reflected through the use of colour, props, and NPC interactions. Security cameras are generously placed throughout the building, except for the people in power. Additionally, interactable props were used as hints for the puzzles players needed to solve.
                     </div>
                     
                     <figure class="col-lg-8">
                         <img src="img/meddlesomeCompany/officeA2.png" width="896" height="228" alt="The office workspace, a drab grey room with individual desks, and covered in security cameras" class="project-img">
-                        <figcaption class="project-img-caption">The office workspace. Oppressive company communicated with the company motto, separated desks, and security cameras.</figcaption>
+                        <figcaption class="project-img-caption">The office workspace. Oppressive company communicated with the company motto, separated desks, and numerous security cameras.</figcaption>
                     </figure>
 
                     <figure class="col-lg-4">
@@ -116,20 +122,20 @@
                     </figure>
                     
                 </div>
-            </section>
+            </div>
 
             <div class="col-lg-12">
                 <h3>Storytelling Through Puzzles</h3>
-                <p>Gameplay was designed to be related to the player character’s task to communicate to the player what was happening in the narrative and indicate challenges the characters were facing. It served to show the character's different approaches to problems: Anthony's charisma and social skills versus Theo's technological and hacking skills.
+                <p>Gameplay was designed to be related to the player character’s task to communicate to the player what was happening in the narrative and indicate challenges the characters were facing. It served to show the character's different approaches to problems: Anthony's charisma and social skills versus Theo's technological and hacking skills. I programmed the following 2 puzzles to reflect this: an NPC deduction puzzle where the player has to pickpocket an NPC for a keycard, and a circuit puzzle where the player has to connect two ends of a circuit to create a distraction. Both puzzles were designed to be solved through the character's approach to problems.
                 </p>
                 <div class="row">
                     <figure class="col-lg-6">
                         <img src="img/meddlesomeCompany/analyze2.png" width="1726" height="967" alt="Meddlesome Company main menu screen" class="project-img">
-                        <figcaption class="project-img-caption">This NPC deduction puzzle conveys Anthony’s (Ch1 player) approach to problems. The player deducts the correct dialogue option based on the NPC’s appearance and dialogue to try to pickpocket their keycard.</figcaption>
+                        <figcaption class="project-img-caption">This NPC deduction puzzle conveys Anthony’s (Ch1 player) approach. The player deducts the correct dialogue option based on the NPC’s appearance and dialogue as Anthony relies on social skills.</figcaption>
                     </figure>
                     <figure class="col-lg-6">
                         <img src="img/meddlesomeCompany/circuit2.png" width="1723" height="962" alt="Meddlesome Company main menu screen" class="project-img">
-                        <figcaption class="project-img-caption">This circuit puzzle focused on conveying Theo’s (Ch2 player) approach to problems. The player connects the two ends of the circuit. The purpose was to create a distraction by connecting the sewage vent to the lab room.</figcaption>
+                        <figcaption class="project-img-caption">This circuit puzzle focused on conveying Theo’s (Ch2 player) approach. The player connects the two ends of the circuit. The purpose was to create a distraction by connecting the sewage vent to the lab room as Theo relies on tech skills.</figcaption>
                     </figure>
                 </div>
             </div>
@@ -141,27 +147,25 @@
                 <div class="row">
                     <figure class="col-lg-6">
                         <img src="img/meddlesomeCompany/dialogue1.png" width="1726" height="936" alt="Meddlesome Company main menu screen" class="project-img">
-                        <figcaption class="project-img-caption">Dialogue 1: The NPC's initial dialogue before the events of the story during Chapter 1.</figcaption>
+                        <figcaption class="project-img-caption">Dialogue 1: The NPC's initial dialogue before the events of the story during Chapter 1, using default font size.</figcaption>
                     </figure>
 
                     <figure class="col-lg-6">
                         <img src="img/meddlesomeCompany/dialogue3.png" width="1730" height="957" alt="Meddlesome Company main menu screen" class="project-img">
-                        <figcaption class="project-img-caption">Dialogue 1: The NPC's dialogue after the power goes out due to the actions of Chapter 2 player character.</figcaption>
+                        <figcaption class="project-img-caption">Dialogue 2: The NPC's dialogue in Chapter 1 after the power goes out due to the actions of Chapter 2 player character. With increased font size to communicate panic.</figcaption>
                     </figure>
                 </div>
             </div>
 
-            
-
-            <div class="col-lg-12">
+            <section class="col-lg-12">
                 <h2>Reflection</h2>
                 <p> Through working on this project, I’ve improved my skills in Unity development and environmental art. I’ve learned more about designing meaningful interactions, environments, and narratives in video games.</p>
 
-                <p>I’ve learned to tell the story effectively and maintain player engagement by having gameplay  intertwine with the character’s skillsets and narrative beats. By doing so, players were able to learn the story we wanted to tell without compromising engagement.</p>
+                <p>I’ve learned to tell the story effectively and maintain player engagement by having gameplay  intertwine with the character’s skillsets and narrative beats. By doing so, players were able to learn the story we wanted to tell without compromising engagement. Our game was well received during the class showcase</p>
 
                 <p>In the future, I would introduce our game’s hook earlier in the game. Currently, it starts with a cutscene to walking to cutscene which wasn’t that fun to the player. Introducing an interaction prior to going to the rival company would help deliver background information as well as increase player engagement.</p>
-            </div>
-        </section>
+            </section>
+        </div>
     </section>
 
     <footer>
