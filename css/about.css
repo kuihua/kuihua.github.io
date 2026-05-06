@@ -1,9 +1,9 @@
 
 .about {
-    max-width: 100rem;
+    max-width: 90rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 8rem 5rem 8rem 5rem;
+    padding: 10rem 8rem 10rem 8rem;
 }
 
 .about-link {
@@ -12,7 +12,6 @@
     text-decoration: none;
     list-style: none;
 }
-
 
 .about-link:after{
     position: absolute;
